@@ -1,4 +1,4 @@
-var content = {
+module.exports.content = {
     '4' : 'E',
     '5' : 'F',
     '6' : 'G',

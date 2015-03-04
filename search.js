@@ -1,9 +1,8 @@
 var webPage = require('webpage'),
-    page = webPage.create(),
-    googleGeo = require('./google-geo'),
-    base64 = require('./base64Processor');
+    page = webPage.create();
 
-function searchEngine(engConfig) {
+
+function SearchEngine(engConfig) {
     var _engineUrl = engConfig.rootDomain,
         _engineRequest = engConfig.requestPrefix,
         _concatSign = engConfig.concatSign,
@@ -15,7 +14,7 @@ function searchEngine(engConfig) {
         _resultLinks;
 
     var pageHandler = function(uri) {
-        page.open(uri, function (status) {
+        page.open(uri, settingsWP,function (status) {
             if (status === 'success') {
 
                 page.injectJs('./libs/jquery-2.1.3.min.js');
@@ -38,7 +37,6 @@ function searchEngine(engConfig) {
 
     var nextPage = function() {
         var file = _searchPagesUrls.shift();
-        console.log(file);
         if(!file) phantom.exit();
         pageHandler(file);
     };
@@ -49,7 +47,7 @@ function searchEngine(engConfig) {
         for (var numPage = 0; numPage < searchObj.depthSearch; numPage++) {
             url += _engineNewPage+10*numPage;
             _searchPagesUrls.push(url);
-            url = url.substr(0,url.indexOf(_engineNewPage));
+            url = url.substr(0, url.indexOf(_engineNewPage));
         }
         nextPage();
     };
@@ -67,6 +65,7 @@ var googleOptions = {
     requestPrefix: 'search?q=',
     concatSign: '+',
     newPagePrefix: '&start=',
+    locParam: '&uule=',
     linkWrapperSelector: 'li.g h3 a',
     locSelector: '#swml_addr'
 };
@@ -79,11 +78,17 @@ useragent.push('Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, l
 useragent.push('Mozilla/5.0 (Windows NT 6.3; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0');
 
 page.settings.userAgent = useragent[Math.floor(Math.random() * useragent.length)];
+page.customHeaders = {"Accept-Language": "ru-RU"};
 
-var google = new searchEngine(googleOptions);
+var settingsWP = {
+    encoding : 'utf8',
+    method: 'post'
+};
+
+var google = new SearchEngine(googleOptions);
 
 var inputParams = {
-    keyPhrase:'сайт под ключ',
+    keyPhrase: 'asd',
     depthSearch: 1,
     city: 'Moscow'
 };
