@@ -1,16 +1,16 @@
 var webPage = require('webpage'),
-    page = webPage.create(),
-    gLocator = require('./googleLocator/GLocator');
+    gLocator = require('./googleLocator/gLocator'),
+    yaLocator = require('./yandexLocator/yaLocator'),
+    page = webPage.create();
 
 function SearchEngine(engConfig) {
-    var _engineUrl = engConfig.rootDomain,
+    var _id = engConfig.id,
+        _engineUrl = engConfig.rootDomain,
         _engineRequest = engConfig.requestPrefix,
         _concatSign = engConfig.concatSign,
         _engineNewPage = engConfig.newPagePrefix,
         _locParam = engConfig.locParam,
-        _linkWrapperSelector = engConfig.linkWrapperSelector,
-        _locSelector = engConfig.locSelector,
-        _localInfo,
+        _linkSelector = engConfig.linkSelector,
         _searchPagesUrls = [],
         _resultLinks;
 
@@ -18,16 +18,11 @@ function SearchEngine(engConfig) {
         page.open(uri, function (status) {
             if (status === 'success') {
 
-                page.injectJs('./libs/jquery-2.1.3.min.js');
-
-                _resultLinks = page.evaluate(function(_linkWrapperSelector) {
-                    return $(_linkWrapperSelector).map(function () {
-                        return this.href;
-                    }).get();
-                }, _linkWrapperSelector);
-                _localInfo = page.evaluate(function(_locSelector) {
-                    return $(_locSelector).text();
-                }, _locSelector);
+                _resultLinks = page.evaluate(function(_linkSelector) {
+                    return [].map.call(document.querySelectorAll(_linkSelector), function (link) {
+                        return link.href;
+                    });
+                }, _linkSelector);
 
                 saveResults();
 
@@ -38,7 +33,9 @@ function SearchEngine(engConfig) {
 
     var nextPage = function() {
         var file = _searchPagesUrls.shift();
-        if(!file) phantom.exit();
+        if(!file){
+            _id === 2 ? task2() : phantom.exit();
+        }
         pageHandler(file);
     };
 
@@ -46,7 +43,7 @@ function SearchEngine(engConfig) {
         var keyPhrase = searchObj.keyPhrase.replace(new RegExp(' ','g'), _concatSign);
         var url = _engineUrl + _engineRequest + encodeURIComponent(keyPhrase) + _locParam + setLocation(searchObj.city);
         for (var numPage = 0; numPage < searchObj.depthSearch; numPage++) {
-            url += _engineNewPage + 10*numPage;
+            url += _engineNewPage + _id.toString(2)*numPage;
             _searchPagesUrls.push(url);
             url = url.substr(0, url.indexOf(_engineNewPage));
         }
@@ -56,12 +53,11 @@ function SearchEngine(engConfig) {
     var saveResults = function() {
         console.log(_resultLinks.join('\n'));
         console.log(_resultLinks.length);
-        console.log(_localInfo);
     };
 
     var setLocation = function(city) {
         try {
-            return gLocator.encrypt(city);
+            return (_id === 2) ? gLocator.encrypt(city.google): yaLocator.encrypt(city.yandex);
         } catch(err) {
             console.log(err+'\nВыполнение программы прекращено!');
             phantom.exit();
@@ -71,23 +67,23 @@ function SearchEngine(engConfig) {
 }
 
 var googleOptions = {
+    id: 2,
     rootDomain: 'http://google.ru/',
     requestPrefix: 'search?q=',
     concatSign: '+',
     newPagePrefix: '&start=',
     locParam: '&uule=',
-    linkWrapperSelector: 'li.g h3 a',
-    locSelector: '#swml_addr'
+    linkSelector: 'li.g h3 a'
 };
 
 var yandexOptions = {
-    rootDomain: 'http://yandex.ru',
-    requestPrefix: 'search?q=',
-    concatSign: '+',
-    newPagePrefix: '&start=',
-    locParam: '&uule=',
-    linkWrapperSelector: 'li.g h3 a',
-    locSelector: '#swml_addr'
+    id: 1,
+    rootDomain: 'http://yandex.ru/',
+    requestPrefix: 'yandsearch?text=',
+    concatSign: '%20',
+    newPagePrefix: '&p=',
+    locParam: '&lr=',
+    linkSelector: '.b-link.serp-item__title-link'
 };
 
 var useragent = [];
@@ -99,14 +95,25 @@ useragent.push('Mozilla/5.0 (Windows NT 6.3; WOW64; rv:30.0) Gecko/20100101 Fire
 
 page.settings.userAgent = useragent[Math.floor(Math.random() * useragent.length)];
 
-
-var google = new SearchEngine(googleOptions);
-
 var inputParams = {
-    keyPhrase: 'привет как дела',
+    keyPhrase: 'приветули',
     depthSearch: 1,
-    city: 'Dimitrovgrad'
+    city: {
+        google: 'Samara',
+        yandex: 'Самара'
+    }
 };
 
 
-google.runSearch(inputParams);
+function task1() {
+    var google = new SearchEngine(googleOptions);
+    google.runSearch(inputParams);
+}
+
+function task2() {
+    var yandex = new SearchEngine(yandexOptions);
+    yandex.runSearch(inputParams);
+}
+
+
+task1();
