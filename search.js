@@ -1,12 +1,13 @@
 var webPage = require('webpage'),
-    page = webPage.create();
-
+    page = webPage.create(),
+    gLocator = require('./googleLocator/GLocator');
 
 function SearchEngine(engConfig) {
     var _engineUrl = engConfig.rootDomain,
         _engineRequest = engConfig.requestPrefix,
         _concatSign = engConfig.concatSign,
         _engineNewPage = engConfig.newPagePrefix,
+        _locParam = engConfig.locParam,
         _linkWrapperSelector = engConfig.linkWrapperSelector,
         _locSelector = engConfig.locSelector,
         _localInfo,
@@ -14,7 +15,7 @@ function SearchEngine(engConfig) {
         _resultLinks;
 
     var pageHandler = function(uri) {
-        page.open(uri, settingsWP,function (status) {
+        page.open(uri, function (status) {
             if (status === 'success') {
 
                 page.injectJs('./libs/jquery-2.1.3.min.js');
@@ -43,9 +44,9 @@ function SearchEngine(engConfig) {
 
     this.runSearch = function(searchObj) {
         var keyPhrase = searchObj.keyPhrase.replace(new RegExp(' ','g'), _concatSign);
-        var url = _engineUrl + _engineRequest + keyPhrase;
+        var url = _engineUrl + _engineRequest + encodeURIComponent(keyPhrase) + _locParam + setLocation(searchObj.city);
         for (var numPage = 0; numPage < searchObj.depthSearch; numPage++) {
-            url += _engineNewPage+10*numPage;
+            url += _engineNewPage + 10*numPage;
             _searchPagesUrls.push(url);
             url = url.substr(0, url.indexOf(_engineNewPage));
         }
@@ -58,10 +59,29 @@ function SearchEngine(engConfig) {
         console.log(_localInfo);
     };
 
+    var setLocation = function(city) {
+        try {
+            return gLocator.encrypt(city);
+        } catch(err) {
+            console.log(err+'\nВыполнение программы прекращено!');
+            phantom.exit();
+        }
+    }
+
 }
 
 var googleOptions = {
     rootDomain: 'http://google.ru/',
+    requestPrefix: 'search?q=',
+    concatSign: '+',
+    newPagePrefix: '&start=',
+    locParam: '&uule=',
+    linkWrapperSelector: 'li.g h3 a',
+    locSelector: '#swml_addr'
+};
+
+var yandexOptions = {
+    rootDomain: 'http://yandex.ru',
     requestPrefix: 'search?q=',
     concatSign: '+',
     newPagePrefix: '&start=',
@@ -78,19 +98,15 @@ useragent.push('Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, l
 useragent.push('Mozilla/5.0 (Windows NT 6.3; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0');
 
 page.settings.userAgent = useragent[Math.floor(Math.random() * useragent.length)];
-page.customHeaders = {"Accept-Language": "ru-RU"};
 
-var settingsWP = {
-    encoding : 'utf8',
-    method: 'post'
-};
 
 var google = new SearchEngine(googleOptions);
 
 var inputParams = {
-    keyPhrase: 'asd',
+    keyPhrase: 'привет как дела',
     depthSearch: 1,
-    city: 'Moscow'
+    city: 'Dimitrovgrad'
 };
+
 
 google.runSearch(inputParams);
