@@ -1,119 +1,108 @@
 var webPage = require('webpage'),
-    gLocator = require('./googleLocator/gLocator'),
-    yaLocator = require('./yandexLocator/yaLocator'),
-    page = webPage.create();
+    enginesConfig = require('./configs/enginesConfig'),
+    userAgents = require('./configs/userAgents'),
+    inputParams = require('./inputParams'),
+    resultSaver = require('./resultSaver');
 
 function SearchEngine(engConfig) {
-    var _id = engConfig.id,
+    var _nameSearcher = engConfig.name,
         _engineUrl = engConfig.rootDomain,
         _engineRequest = engConfig.requestPrefix,
         _concatSign = engConfig.concatSign,
         _engineNewPage = engConfig.newPagePrefix,
         _locParam = engConfig.locParam,
         _linkSelector = engConfig.linkSelector,
-        _searchPagesUrls = [],
-        _resultLinks;
+        _numPageFactor = engConfig.numPageFactor,
+        _locationMethod = engConfig.locationMethod,
+        _searchPages = [],
+        _currCity,
+        _onPageLinks;
 
-    var pageHandler = function(uri) {
-        page.open(uri, function (status) {
+    var _page = webPage.create();
+        _page.settings.userAgent = userAgents[Math.floor(Math.random() * userAgents.length)];
+
+    var pageHandler = function(obj) {
+        _page.open(obj.link, function (status) {
             if (status === 'success') {
 
-                _resultLinks = page.evaluate(function(_linkSelector) {
+                _onPageLinks = _page.evaluate(function(_linkSelector) {
                     return [].map.call(document.querySelectorAll(_linkSelector), function (link) {
                         return link.href;
                     });
                 }, _linkSelector);
 
-                saveResults();
-
+                saveResults(obj.page, obj.key);
                 setTimeout(nextPage, 1000);
             }
         });
     };
 
     var nextPage = function() {
-        var file = _searchPagesUrls.shift();
-        if(!file){
-            _id === 2 ? task2() : phantom.exit();
-        }
-        pageHandler(file);
+        var file = _searchPages.shift();
+        if(!file) executeTask();
+        else pageHandler(file);
     };
 
     this.runSearch = function(searchObj) {
-        var keyPhrase = searchObj.keyPhrase.replace(new RegExp(' ','g'), _concatSign);
-        var url = _engineUrl + _engineRequest + encodeURIComponent(keyPhrase) + _locParam + setLocation(searchObj.city);
-        for (var numPage = 0; numPage < searchObj.depthSearch; numPage++) {
-            url += _engineNewPage + _id.toString(2)*numPage;
-            _searchPagesUrls.push(url);
-            url = url.substr(0, url.indexOf(_engineNewPage));
+        _currCity = searchObj.city[_nameSearcher];
+        var keyPhrase, url,
+            location = setLocation(_currCity),
+            keyArr = searchObj.keyPhrases;
+        for (var numKey = 0; numKey < keyArr.length; numKey++ ) {
+            keyPhrase = keyArr[numKey].replace(new RegExp(' ', 'g'), _concatSign);
+            url = _engineUrl + _engineRequest + encodeURIComponent(keyPhrase) + _locParam + location;
+            for (var numPage = 0; numPage < searchObj.depthSearch; numPage++) {
+                var newObj = {};
+                newObj.key = keyPhrase;
+                newObj.page = numPage + 1;
+                url += _engineNewPage + _numPageFactor * numPage;
+                newObj.link = url;
+                _searchPages.push(newObj);
+                url = url.substr(0, url.indexOf(_engineNewPage));
+            }
         }
         nextPage();
     };
 
-    var saveResults = function() {
-        console.log(_resultLinks.join('\n'));
-        console.log(_resultLinks.length);
+    var saveResults = function(page, phrase) {
+        resObj = {
+            searcher: _nameSearcher,
+            city: _currCity,
+            key: phrase,
+            page: page,
+            links: _onPageLinks
+        };
+
+        resultSaver(resObj);
     };
 
     var setLocation = function(city) {
         try {
-            return (_id === 2) ? gLocator.encrypt(city.google): yaLocator.encrypt(city.yandex);
+            return _locationMethod(city);
         } catch(err) {
             console.log(err+'\nВыполнение программы прекращено!');
             phantom.exit();
         }
     }
-
 }
 
-var googleOptions = {
-    id: 2,
-    rootDomain: 'http://google.ru/',
-    requestPrefix: 'search?q=',
-    concatSign: '+',
-    newPagePrefix: '&start=',
-    locParam: '&uule=',
-    linkSelector: 'li.g h3 a'
-};
-
-var yandexOptions = {
-    id: 1,
-    rootDomain: 'http://yandex.ru/',
-    requestPrefix: 'yandsearch?text=',
-    concatSign: '%20',
-    newPagePrefix: '&p=',
-    locParam: '&lr=',
-    linkSelector: '.b-link.serp-item__title-link'
-};
-
-var useragent = [];
-useragent.push('Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25');
-useragent.push('Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20130406 Firefox/23.0');
-useragent.push('Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36 OPR/27.0.1689.76');
-useragent.push('Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36');
-useragent.push('Mozilla/5.0 (Windows NT 6.3; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0');
-
-page.settings.userAgent = useragent[Math.floor(Math.random() * useragent.length)];
-
-var inputParams = {
-    keyPhrase: 'приветули',
-    depthSearch: 1,
-    city: {
-        google: 'Samara',
-        yandex: 'Самара'
-    }
-};
-
-
 function task1() {
-    var google = new SearchEngine(googleOptions);
+    var google = new SearchEngine(enginesConfig.gOpt);
     google.runSearch(inputParams);
 }
 
 function task2() {
-    var yandex = new SearchEngine(yandexOptions);
+    var yandex = new SearchEngine(enginesConfig.yaOpt);
     yandex.runSearch(inputParams);
 }
 
+var taskPull = [task1, task2];
 
-task1();
+function executeTask() {
+    var task = taskPull.pop();
+    if(!task) phantom.exit();
+    task.call(null);
+}
+
+executeTask();
+
