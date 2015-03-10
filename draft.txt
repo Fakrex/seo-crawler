@@ -1,0 +1,74 @@
+ this.recursiveRead = function (rootParentKey, currEditor, lvl, obj) {
+                for (var key in obj) {
+                    if (obj[key] instanceof Object) {
+                        if (lvl === 0) {
+                            rootParentKey = key;
+                            currEditor = new Editor(rootParentKey, obj[key].type, obj[key].label, obj[key].range, obj[key].array, obj[key].composition);
+                            this.editors.push(currEditor);
+                        }
+                        if (obj[key] instanceof Array) {
+                            console.log('Here array!');
+                        } else {
+                            this.recursiveRead(rootParentKey, currEditor, lvl + 1, obj[key]);
+                        }
+                    } else {
+                        pair = key + ' : ' + obj[key];
+                        console.log(pair+'___'+rootParentKey+'___'+lvl);
+                        pair = '';
+                    }
+                }
+            };
+
+            var Editor = function(propertyName, propertyType, propertyLabel, propertyRange, propertyCast, propertyComposition) {
+                var _propName = propertyName;
+                var _propType = propertyType;
+                var _label = propertyLabel;
+                var _propRange = propertyRange;
+                var _propCast = propertyCast;
+                var _propComposition = (typeof propertyComposition === 'undefined') ? null : propertyComposition;
+
+                this.__defineSetter__("propType", function(propertyType) {
+                    _propType = propertyType;
+                });
+
+                this.__defineSetter__("label", function(propertyLabel) {
+                    _label = propertyLabel;
+                });
+
+                this.__defineSetter__("propRange", function(propertyRange) {
+                    _propRange = propertyRange;
+                });
+
+                this.__defineSetter__("propCast", function(propertyCast) {
+                    _propCast = propertyCast;
+                });
+
+                this.__defineGetter__("propName", function(){
+                    return _propName;
+                });
+
+                this.__defineGetter__("propType", function(){
+                    return _propType;
+                });
+
+                this.__defineGetter__("label", function(){
+                    return _label;
+                });
+
+                this.__defineGetter__("propRange", function(){
+                    return _propRange;
+                });
+
+                this.__defineGetter__("propCast", function(){
+                    return _propCast;
+                });
+
+            };
+
+            Editor.prototype.render = function() {
+
+            };
+
+            Editor.prototype.destroy = function() {
+
+            };
