@@ -2,7 +2,7 @@ var webPage = require('webpage'),
     enginesConfig = require('./configs/enginesConfig'),
     userAgents = require('./configs/userAgents'),
     inputParams = require('./inputParams'),
-    resultSaver = require('./resultSaver');
+    saver = require('./resultSaver');
 
 function SearchEngine(engConfig) {
     var _nameSearcher = engConfig.name,
@@ -73,7 +73,7 @@ function SearchEngine(engConfig) {
             links: _onPageLinks
         };
 
-        resultSaver(resObj);
+        saver.ResultHandler(resObj);
     };
 
     var setLocation = function(city) {
@@ -96,7 +96,12 @@ function task2() {
     yandex.runSearch(inputParams);
 }
 
-var taskPull = [task1, task2];
+function task3() {
+    saver.resultStore();
+    executeTask();
+}
+
+var taskPull = [task3, task1, task2];
 
 function executeTask() {
     var task = taskPull.pop();

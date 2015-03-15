@@ -3,7 +3,6 @@ var fs = require('fs'),
 
 fs.write(path, '', 'w');
 var now = new Date(),
-    resArr = [],
     strDate = now.toISOString(),
     currDate = strDate.substr(0,strDate.indexOf('T')) + ' ' + now.toTimeString().replace(/.*(\d{2}:\d{2}:\d{2}).*/, "$1");
 
@@ -16,9 +15,9 @@ var exampleObj = {
     ]
 };
 
+ResultHandler.prototype.resArr = [];
 
-
-function resultSaver(obj) {
+function ResultHandler(obj) {
     console.log('опа!');
     console.log(obj.searcher + ', ' + obj.city + ', ' + obj.page + ', ' + obj.key);
     console.log(obj.links.join('\n'));
@@ -44,13 +43,20 @@ function resultSaver(obj) {
                 throw new Error('Неверное значение!');
         }
         tmpObj.keys.push(keyItem);
-        resArr.push(tmpObj);
+        ResultHandler.prototype.resArr.push(tmpObj);
     }
+}
 
+function resultStore() {
+    fs.write(path, JSON.stringify(ResultHandler.prototype.resArr, null, '\t'), 'w');
+}
 
-
-    fs.write(path, JSON.stringify(resArr, null, '\t'), 'a');
+function resultAggregate() {
 
 }
 
-module.exports = resultSaver;
+
+module.exports = {
+    ResultHandler : ResultHandler,
+    resultStore: resultStore
+};
