@@ -1,7 +1,7 @@
 module.exports = {
     keyPhrases:[
-        'приветули',
-        'dada'
+        'http',
+        'http протокол'
     ],
     depthSearch: 1,
     city: {

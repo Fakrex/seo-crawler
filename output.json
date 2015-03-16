@@ -1,419 +1,463 @@
 [
 	{
-		"city": "Самара",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://vk.com/id6552996",
-		"keys": [
-			{
-				"key": "приветули",
-				"yandex": 1
-			}
-		]
-	},
-	{
-		"city": "Самара",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://iconosquare.com/tag/%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82%D1%83%D0%BB%D0%B8",
-		"keys": [
-			{
-				"key": "приветули",
-				"yandex": 2
-			}
-		]
-	},
-	{
-		"city": "Самара",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://www.NaDietah.ru/blog/7713-deonti/44439-privetuli",
-		"keys": [
-			{
-				"key": "приветули",
-				"yandex": 3
-			}
-		]
-	},
-	{
-		"city": "Самара",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "https://twitter.com/shalimovaksysha",
-		"keys": [
-			{
-				"key": "приветули",
-				"yandex": 4
-			}
-		]
-	},
-	{
-		"city": "Самара",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "https://multator.ru/toon/11fo4ranemuk",
-		"keys": [
-			{
-				"key": "приветули",
-				"yandex": 5
-			}
-		]
-	},
-	{
-		"city": "Самара",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://www.greenmama.ru/nid/2395519/",
-		"keys": [
-			{
-				"key": "приветули",
-				"yandex": 6
-			}
-		]
-	},
-	{
-		"city": "Самара",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://www.StranaMam.ru/post/7596248/",
-		"keys": [
-			{
-				"key": "приветули",
-				"yandex": 7
-			}
-		]
-	},
-	{
-		"city": "Самара",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://www.galya.ru/catd_new_page.php?id=5356097&nt=671",
-		"keys": [
-			{
-				"key": "приветули",
-				"yandex": 8
-			}
-		]
-	},
-	{
-		"city": "Самара",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://forum.expw.net/threads/%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82%D1%83%D0%BB%D0%B8.42779/",
-		"keys": [
-			{
-				"key": "приветули",
-				"yandex": 9
-			}
-		]
-	},
-	{
-		"city": "Самара",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://nekotyan123.beon.ru/20417-699-privetuli.zhtml",
-		"keys": [
-			{
-				"key": "приветули",
-				"yandex": 10
-			}
-		]
-	},
-	{
-		"city": "Самара",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://clubdada.ru/",
-		"keys": [
-			{
-				"key": "dada",
-				"yandex": 1
-			}
-		]
-	},
-	{
-		"city": "Самара",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://www.lastfm.ru/music/Dada",
-		"keys": [
-			{
-				"key": "dada",
-				"yandex": 2
-			}
-		]
-	},
-	{
-		"city": "Самара",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://vk.com/clubdada",
-		"keys": [
-			{
-				"key": "dada",
-				"yandex": 3
-			}
-		]
-	},
-	{
-		"city": "Самара",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://www.youtube.com/user/wwwDADALIFEcom",
-		"keys": [
-			{
-				"key": "dada",
-				"yandex": 4
-			}
-		]
-	},
-	{
-		"city": "Самара",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://en.wikipedia.org/wiki/Dada",
-		"keys": [
-			{
-				"key": "dada",
-				"yandex": 5
-			}
-		]
-	},
-	{
-		"city": "Самара",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://ru.wikipedia.org/wiki/%C4%E0%E4%E0%E8%E7%EC",
-		"keys": [
-			{
-				"key": "dada",
-				"yandex": 6
-			}
-		]
-	},
-	{
-		"city": "Самара",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://irecommend.ru/content/podguzniki-dada-premium",
-		"keys": [
-			{
-				"key": "dada",
-				"yandex": 7
-			}
-		]
-	},
-	{
-		"city": "Самара",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://en.academic.ru/dic.nsf/enwiki/4758",
-		"keys": [
-			{
-				"key": "dada",
-				"yandex": 8
-			}
-		]
-	},
-	{
-		"city": "Самара",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://en.wikiquote.org/wiki/Dada",
-		"keys": [
-			{
-				"key": "dada",
-				"yandex": 9
-			}
-		]
-	},
-	{
-		"city": "Самара",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "https://www.facebook.com/dadalife",
-		"keys": [
-			{
-				"key": "dada",
-				"yandex": 10
-			}
-		]
-	},
-	{
 		"city": "Samara",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://www.youtube.com/watch?v=SfO6JqVZO9I",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "https://ru.wikipedia.org/wiki/HTTP",
 		"keys": [
 			{
-				"key": "приветули",
+				"key": "http",
 				"google": 1
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://www.privet.by/ru/tarifs/tariffs_privetik/",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
 		"keys": [
 			{
-				"key": "приветули",
+				"key": "http",
 				"google": 2
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://www.privet.by/ru/chto_takoe/article2027/",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://www.kremlin.ru/",
 		"keys": [
 			{
-				"key": "приветули",
+				"key": "http",
 				"google": 3
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://www.diamedia.lv/",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://lenta.ru/",
 		"keys": [
 			{
-				"key": "приветули",
+				"key": "http",
 				"google": 4
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://stranamasterov.ru/user/49832",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://rutube.ru/",
 		"keys": [
 			{
-				"key": "приветули",
+				"key": "http",
 				"google": 5
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://dic.academic.ru/dic.nsf/dic_synonims/135178/%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82%D0%B8%D0%BA",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://habrahabr.ru/",
 		"keys": [
 			{
-				"key": "приветули",
+				"key": "http",
 				"google": 6
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://www.velcom.by/ru/about/news/15664.htm",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://ria.ru/",
 		"keys": [
 			{
-				"key": "приветули",
+				"key": "http",
 				"google": 7
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://www.eralash.ru/video/%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82%D0%B8%D0%BA-%D1%82%D0%B5%D1%82%D1%8F-%D0%BB%D1%8E%D0%B1%D0%B0",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://www.vesti.ru/",
 		"keys": [
 			{
-				"key": "приветули",
+				"key": "http",
 				"google": 8
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://www.inpearls.ru/comments/36566",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://www.gks.ru/",
 		"keys": [
 			{
-				"key": "приветули",
+				"key": "http",
 				"google": 9
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://clubdada.ru/",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://www.rambler.ru/",
 		"keys": [
 			{
-				"key": "dada",
+				"key": "http",
+				"google": 10
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "https://ru.wikipedia.org/wiki/HTTP",
+		"keys": [
+			{
+				"key": "http+протокол",
 				"google": 1
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "https://ru.wikipedia.org/wiki/DaDa",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://habrahabr.ru/post/215117/",
 		"keys": [
 			{
-				"key": "dada",
+				"key": "http+протокол",
 				"google": 2
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://en.wikipedia.org/wiki/Dada",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://www.4stud.info/web-programming/protocol-http.html",
 		"keys": [
 			{
-				"key": "dada",
+				"key": "http+протокол",
 				"google": 3
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "https://ru-ru.facebook.com/clubdada",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://ruseller.com/lessons.php?rub=28&id=1726",
 		"keys": [
 			{
-				"key": "dada",
+				"key": "http+протокол",
 				"google": 4
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://www.dadastudio.ru/",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://www.lib.ru/WEBMASTER/rfc2068/",
 		"keys": [
 			{
-				"key": "dada",
+				"key": "http+протокол",
 				"google": 5
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://vk.com/dada_underground",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://www.javaportal.ru/java/articles/java_http_web/article03.html",
 		"keys": [
 			{
-				"key": "dada",
+				"key": "http+протокол",
 				"google": 6
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://www.lib.uiowa.edu/dada/",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://www.i2r.ru/static/247/out_3771.shtml",
 		"keys": [
 			{
-				"key": "dada",
+				"key": "http+протокол",
 				"google": 7
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://www.theartstory.org/movement-dada.htm",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://citforum.ru/internet/services/services0308.shtml",
 		"keys": [
 			{
-				"key": "dada",
+				"key": "http+протокол",
 				"google": 8
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-15 23:55:56",
-		"urlSearch": "http://www.afisha.ru/msk/restaurant/37346/",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://www.angel07.webservis.ru/internet/http.html",
 		"keys": [
 			{
-				"key": "dada",
+				"key": "http+протокол",
 				"google": 9
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://webgyry.info/protokol-http-chto-eto",
+		"keys": [
+			{
+				"key": "http+протокол",
+				"google": 10
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://ru.wikipedia.org/wiki/HTTP",
+		"keys": [
+			{
+				"key": "http",
+				"yandex": 1
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://book.itep.ru/4/45/http4561.htm",
+		"keys": [
+			{
+				"key": "http",
+				"yandex": 2
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://traditio-ru.org/wiki/Http",
+		"keys": [
+			{
+				"key": "http",
+				"yandex": 3
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://ru.science.wikia.com/wiki/HTTP",
+		"keys": [
+			{
+				"key": "http",
+				"yandex": 4
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://wiki.dieg.info/http",
+		"keys": [
+			{
+				"key": "http",
+				"yandex": 5
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://rootonly.ru/content/http",
+		"keys": [
+			{
+				"key": "http",
+				"yandex": 6
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://lib.ru/WEBMASTER/rfc2068/section-3.html",
+		"keys": [
+			{
+				"key": "http",
+				"yandex": 7
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
+		"keys": [
+			{
+				"key": "http",
+				"yandex": 8
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://www.w3.org/http",
+		"keys": [
+			{
+				"key": "http",
+				"yandex": 9
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://vkontakte.ru/",
+		"keys": [
+			{
+				"key": "http",
+				"yandex": 10
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://yabs.yandex.ru/count/Bapdr_A39EC400G0gQ10022EjRfjK0LIbGAR0Mv3jm8j0OYyhzOG18cuY_GD0fYGZmAThEIw1gP0Ygz9qiozkynd1m6g0QMi5xm2lAZKxmAD0P6zo5-62PCpcGL2Z93v5Q2GHJElaFaLfu9ggB10MNC7em6kzkYC50tbPn45iG6oX36vhEIw1i7__________m_2_3JNnG14gEy3nOyFUn80",
+		"keys": [
+			{
+				"key": "http",
+				"yandex": 11
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://www.youtube.com/watch?v=VO_R2pIoL4Q",
+		"keys": [
+			{
+				"key": "http%20протокол",
+				"yandex": 1
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://www.topexpert.pro/open-seo-lessons/lesson-20.html",
+		"keys": [
+			{
+				"key": "http%20протокол",
+				"yandex": 2
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://pt.slideshare.net/TopExpertRF/20-http-17863665",
+		"keys": [
+			{
+				"key": "http%20протокол",
+				"yandex": 3
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://ru.wikipedia.org/wiki/OSPF",
+		"keys": [
+			{
+				"key": "http%20протокол",
+				"yandex": 4
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://profrazy.ru/show/-Khgihh5LGU/urok_20_protokol_http_evgeniy_kontsevoy.html",
+		"keys": [
+			{
+				"key": "http%20протокол",
+				"yandex": 5
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "https://sites.google.com/site/gosyvmkss12/ceti-ebm-i-cpedctva-telekommynikacij/20-protokol-tcp",
+		"keys": [
+			{
+				"key": "http%20протокол",
+				"yandex": 6
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://www.xpomo.com/see.php?ackh=1500-naznachenie-protokola-http.html",
+		"keys": [
+			{
+				"key": "http%20протокол",
+				"yandex": 7
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://creativeit.ru/18b52c062042b4e2.html",
+		"keys": [
+			{
+				"key": "http%20протокол",
+				"yandex": 8
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://www.classcenter.ru/see.php?aiuk=1500-naznachenie-protokola-http.html",
+		"keys": [
+			{
+				"key": "http%20протокол",
+				"yandex": 9
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://pulse-sports.ru/protocols/2014-07-20_plios/abs.html",
+		"keys": [
+			{
+				"key": "http%20протокол",
+				"yandex": 10
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-16 17:33:21",
+		"urlSearch": "http://yabs.yandex.ru/count/6m7X5KZzmFC400GWgQ1000AEjxfjK0LIbGAR0Mv3jm8j0OYyhzOG18cuY_GD0fYGZmAThEIw1gP0Ygz9qiozkynd1m6g0QMi5xm2lAZKxmAD0P6oRjYd1O-rNGUl1P-ze53Q2PCpcGL2Z9284w2GHJEla8WJfuc5gB10MNC7fC00002r0QxtwAqLBELd4GMn0RA0CRcivBe6k_KwYnqBgS900S7__________m_2vPjwxBzP1at5Zmzz5G00",
+		"keys": [
+			{
+				"key": "http%20протокол",
+				"yandex": 11
 			}
 		]
 	}

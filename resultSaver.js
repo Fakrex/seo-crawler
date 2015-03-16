@@ -3,11 +3,13 @@ var fs = require('fs'),
 
 fs.write(path, '', 'w');
 var now = new Date(),
+    resArr = [],
     strDate = now.toISOString(),
+    currCity,
     currDate = strDate.substr(0,strDate.indexOf('T')) + ' ' + now.toTimeString().replace(/.*(\d{2}:\d{2}:\d{2}).*/, "$1");
 
 var exampleObj = {
-    "dateTime": "20115-01-01 18:00",
+    "dateTime": "2015-01-01 18:00",
     "city": "Москва",
     "urlSearch": "http://www.mail.ru/sovety/sovet1/index.html",
     "keys": [
@@ -15,7 +17,7 @@ var exampleObj = {
     ]
 };
 
-ResultHandler.prototype.resArr = [];
+
 
 function ResultHandler(obj) {
     console.log('опа!');
@@ -23,13 +25,16 @@ function ResultHandler(obj) {
     console.log(obj.links.join('\n'));
     console.log(obj.links.length);
 
+    currCity = !!currCity ? currCity : obj.city;
+
     var tmpObj;
     for(var i = 0; i < obj.links.length; i++) {
         var keyItem = {};
         tmpObj = Object.create(exampleObj);
-        tmpObj.city = obj.city;
+        tmpObj.city = currCity;
         tmpObj.dateTime = currDate;
         tmpObj.urlSearch = obj.links[i];
+        if(resArr.indexOf())
         tmpObj.keys = [];
         keyItem['key'] = obj.key;
         switch (obj.searcher) {
@@ -43,12 +48,12 @@ function ResultHandler(obj) {
                 throw new Error('Неверное значение!');
         }
         tmpObj.keys.push(keyItem);
-        ResultHandler.prototype.resArr.push(tmpObj);
+        resArr.push(tmpObj);
     }
 }
 
 function resultStore() {
-    fs.write(path, JSON.stringify(ResultHandler.prototype.resArr, null, '\t'), 'w');
+    fs.write(path, JSON.stringify(resArr, null, '\t'), 'w');
 }
 
 function resultAggregate() {
