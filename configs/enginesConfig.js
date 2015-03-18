@@ -5,7 +5,7 @@ var googleOptions = {
     name: 'google',
     rootDomain: 'http://google.ru/',
     requestPrefix: 'search?q=',
-    concatSign: '+',
+    concatSign: '%20',
     newPagePrefix: '&start=',
     locParam: '&uule=',
     linkSelector: 'li.g h3 a',

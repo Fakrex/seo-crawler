@@ -1,8 +1,9 @@
 [
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
+		"dateTime": "2015-03-18 17:23:13",
 		"urlSearch": "https://ru.wikipedia.org/wiki/HTTP",
+		"rootDomain": "https:ru.wikipedia.org",
 		"keys": [
 			{
 				"key": "http",
@@ -12,19 +13,22 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
+		"dateTime": "2015-03-18 17:23:13",
 		"urlSearch": "http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
+		"rootDomain": "http:en.wikipedia.org",
 		"keys": [
 			{
 				"key": "http",
-				"google": 2
+				"google": 2,
+				"yandex": 8
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
+		"dateTime": "2015-03-18 17:23:13",
 		"urlSearch": "http://www.kremlin.ru/",
+		"rootDomain": "http:www.kremlin.ru",
 		"keys": [
 			{
 				"key": "http",
@@ -34,8 +38,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
+		"dateTime": "2015-03-18 17:23:13",
 		"urlSearch": "http://lenta.ru/",
+		"rootDomain": "http:lenta.ru",
 		"keys": [
 			{
 				"key": "http",
@@ -45,8 +50,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://rutube.ru/",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://habrahabr.ru/",
+		"rootDomain": "http:habrahabr.ru",
 		"keys": [
 			{
 				"key": "http",
@@ -56,8 +62,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://habrahabr.ru/",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://rutube.ru/",
+		"rootDomain": "http:rutube.ru",
 		"keys": [
 			{
 				"key": "http",
@@ -67,8 +74,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
+		"dateTime": "2015-03-18 17:23:13",
 		"urlSearch": "http://ria.ru/",
+		"rootDomain": "http:ria.ru",
 		"keys": [
 			{
 				"key": "http",
@@ -78,8 +86,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
+		"dateTime": "2015-03-18 17:23:13",
 		"urlSearch": "http://www.vesti.ru/",
+		"rootDomain": "http:www.vesti.ru",
 		"keys": [
 			{
 				"key": "http",
@@ -89,8 +98,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://www.gks.ru/",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://www.rambler.ru/",
+		"rootDomain": "http:www.rambler.ru",
 		"keys": [
 			{
 				"key": "http",
@@ -100,8 +110,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://www.rambler.ru/",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://www.gks.ru/",
+		"rootDomain": "http:www.gks.ru",
 		"keys": [
 			{
 				"key": "http",
@@ -111,118 +122,131 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "https://ru.wikipedia.org/wiki/HTTP",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://www.youtube.com/watch?v=-Khgihh5LGU",
+		"rootDomain": "http:www.youtube.com",
 		"keys": [
 			{
-				"key": "http+протокол",
+				"key": "http%20протокол",
 				"google": 1
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://habrahabr.ru/post/215117/",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://www.youtube.com/watch?v=VO_R2pIoL4Q",
+		"rootDomain": "http:www.youtube.com",
 		"keys": [
 			{
-				"key": "http+протокол",
-				"google": 2
+				"key": "http%20протокол",
+				"google": 2,
+				"yandex": 2
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://www.4stud.info/web-programming/protocol-http.html",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://www.topexpert.pro/open-seo-lessons/lesson-20.html",
+		"rootDomain": "http:www.topexpert.pro",
 		"keys": [
 			{
-				"key": "http+протокол",
-				"google": 3
+				"key": "http%20протокол",
+				"google": 3,
+				"yandex": 3
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://ruseller.com/lessons.php?rub=28&id=1726",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://www.slideshare.net/TopExpertRF/20-http-17863665",
+		"rootDomain": "http:www.slideshare.net",
 		"keys": [
 			{
-				"key": "http+протокол",
+				"key": "http%20протокол",
 				"google": 4
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://www.lib.ru/WEBMASTER/rfc2068/",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://www.cyberforum.ru/redhat-fedora-centos-asp-linux/thread1320301.html",
+		"rootDomain": "http:www.cyberforum.ru",
 		"keys": [
 			{
-				"key": "http+протокол",
+				"key": "http%20протокол",
 				"google": 5
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://www.javaportal.ru/java/articles/java_http_web/article03.html",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "https://sites.google.com/site/gosyvmkss12/ceti-ebm-i-cpedctva-telekommynikacij/20-protokol-tcp",
+		"rootDomain": "https:sites.google.com",
 		"keys": [
 			{
-				"key": "http+протокол",
+				"key": "http%20протокол",
 				"google": 6
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://www.i2r.ru/static/247/out_3771.shtml",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://www.abirus.ru/content/564/623/626/14338/16620/16663.html",
+		"rootDomain": "http:www.abirus.ru",
 		"keys": [
 			{
-				"key": "http+протокол",
+				"key": "http%20протокол",
 				"google": 7
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://citforum.ru/internet/services/services0308.shtml",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://www.abirus.ru/content/564/623/626/14338/16620/16662.html",
+		"rootDomain": "http:www.abirus.ru",
 		"keys": [
 			{
-				"key": "http+протокол",
+				"key": "http%20протокол",
 				"google": 8
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://www.angel07.webservis.ru/internet/http.html",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://www.alsportal.ru/latest-news/protokoldeanny",
+		"rootDomain": "http:www.alsportal.ru",
 		"keys": [
 			{
-				"key": "http+протокол",
+				"key": "http%20протокол",
 				"google": 9
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://webgyry.info/protokol-http-chto-eto",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://studopedia.org/4-168156.html",
+		"rootDomain": "http:studopedia.org",
 		"keys": [
 			{
-				"key": "http+протокол",
+				"key": "http%20протокол",
 				"google": 10
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
+		"dateTime": "2015-03-18 17:23:13",
 		"urlSearch": "http://ru.wikipedia.org/wiki/HTTP",
+		"rootDomain": "http:ru.wikipedia.org",
 		"keys": [
 			{
 				"key": "http",
@@ -232,8 +256,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
+		"dateTime": "2015-03-18 17:23:13",
 		"urlSearch": "http://book.itep.ru/4/45/http4561.htm",
+		"rootDomain": "http:book.itep.ru",
 		"keys": [
 			{
 				"key": "http",
@@ -243,8 +268,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
+		"dateTime": "2015-03-18 17:23:13",
 		"urlSearch": "http://traditio-ru.org/wiki/Http",
+		"rootDomain": "http:traditio-ru.org",
 		"keys": [
 			{
 				"key": "http",
@@ -254,8 +280,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
+		"dateTime": "2015-03-18 17:23:13",
 		"urlSearch": "http://ru.science.wikia.com/wiki/HTTP",
+		"rootDomain": "http:ru.science.wikia.com",
 		"keys": [
 			{
 				"key": "http",
@@ -265,8 +292,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
+		"dateTime": "2015-03-18 17:23:13",
 		"urlSearch": "http://wiki.dieg.info/http",
+		"rootDomain": "http:wiki.dieg.info",
 		"keys": [
 			{
 				"key": "http",
@@ -276,8 +304,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
+		"dateTime": "2015-03-18 17:23:13",
 		"urlSearch": "http://rootonly.ru/content/http",
+		"rootDomain": "http:rootonly.ru",
 		"keys": [
 			{
 				"key": "http",
@@ -287,8 +316,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
+		"dateTime": "2015-03-18 17:23:13",
 		"urlSearch": "http://lib.ru/WEBMASTER/rfc2068/section-3.html",
+		"rootDomain": "http:lib.ru",
 		"keys": [
 			{
 				"key": "http",
@@ -298,19 +328,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
-		"keys": [
-			{
-				"key": "http",
-				"yandex": 8
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
+		"dateTime": "2015-03-18 17:23:13",
 		"urlSearch": "http://www.w3.org/http",
+		"rootDomain": "http:www.w3.org",
 		"keys": [
 			{
 				"key": "http",
@@ -320,8 +340,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
+		"dateTime": "2015-03-18 17:23:13",
 		"urlSearch": "http://vkontakte.ru/",
+		"rootDomain": "http:vkontakte.ru",
 		"keys": [
 			{
 				"key": "http",
@@ -331,8 +352,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://yabs.yandex.ru/count/Bapdr_A39EC400G0gQ10022EjRfjK0LIbGAR0Mv3jm8j0OYyhzOG18cuY_GD0fYGZmAThEIw1gP0Ygz9qiozkynd1m6g0QMi5xm2lAZKxmAD0P6zo5-62PCpcGL2Z93v5Q2GHJElaFaLfu9ggB10MNC7em6kzkYC50tbPn45iG6oX36vhEIw1i7__________m_2_3JNnG14gEy3nOyFUn80",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://yabs.yandex.ru/count/CcquIGNb_wa400G0gQ10022EjiINK0LIbGAR0Mv3jm8j0OYsK_JG18cpGsP60fWRdQpakWQcJ8gW-LcslQCb9Esg0QMlhfC2lAZKxmAD0P6zo5-62PCpcGL2Z93v5Q2Gr32laFaLfu5kgB10MNC7em6kzUWPCuNyZn45iG6oX16vhEIw1i7__________m_2_3JNnG14gEy3nOyFU180",
+		"rootDomain": "http:yabs.yandex.ru",
 		"keys": [
 			{
 				"key": "http",
@@ -342,8 +364,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://www.youtube.com/watch?v=VO_R2pIoL4Q",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://pt.slideshare.net/TopExpertRF/20-http-17863665",
+		"rootDomain": "http:pt.slideshare.net",
 		"keys": [
 			{
 				"key": "http%20протокол",
@@ -353,30 +376,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://www.topexpert.pro/open-seo-lessons/lesson-20.html",
-		"keys": [
-			{
-				"key": "http%20протокол",
-				"yandex": 2
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://pt.slideshare.net/TopExpertRF/20-http-17863665",
-		"keys": [
-			{
-				"key": "http%20протокол",
-				"yandex": 3
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://ru.wikipedia.org/wiki/OSPF",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP",
+		"rootDomain": "http:ru.wikipedia.org",
 		"keys": [
 			{
 				"key": "http%20протокол",
@@ -386,8 +388,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://profrazy.ru/show/-Khgihh5LGU/urok_20_protokol_http_evgeniy_kontsevoy.html",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://ru.wikipedia.org/wiki/OSPF",
+		"rootDomain": "http:ru.wikipedia.org",
 		"keys": [
 			{
 				"key": "http%20протокол",
@@ -397,8 +400,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "https://sites.google.com/site/gosyvmkss12/ceti-ebm-i-cpedctva-telekommynikacij/20-protokol-tcp",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://profrazy.ru/show/-Khgihh5LGU/urok_20_protokol_http_evgeniy_kontsevoy.html",
+		"rootDomain": "http:profrazy.ru",
 		"keys": [
 			{
 				"key": "http%20протокол",
@@ -408,8 +412,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://www.xpomo.com/see.php?ackh=1500-naznachenie-protokola-http.html",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://habrahabr.ru/post/215117/",
+		"rootDomain": "http:habrahabr.ru",
 		"keys": [
 			{
 				"key": "http%20протокол",
@@ -419,8 +424,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://creativeit.ru/18b52c062042b4e2.html",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://scriptcoding.ru/2013/03/19/protocol-http/",
+		"rootDomain": "http:scriptcoding.ru",
 		"keys": [
 			{
 				"key": "http%20протокол",
@@ -430,8 +436,9 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://www.classcenter.ru/see.php?aiuk=1500-naznachenie-protokola-http.html",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://ruseller.com/lessons.php?id=1726&rub=28",
+		"rootDomain": "http:ruseller.com",
 		"keys": [
 			{
 				"key": "http%20протокол",
@@ -441,23 +448,13 @@
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://pulse-sports.ru/protocols/2014-07-20_plios/abs.html",
+		"dateTime": "2015-03-18 17:23:13",
+		"urlSearch": "http://reftrend.ru/948955.html",
+		"rootDomain": "http:reftrend.ru",
 		"keys": [
 			{
 				"key": "http%20протокол",
 				"yandex": 10
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-16 17:33:21",
-		"urlSearch": "http://yabs.yandex.ru/count/6m7X5KZzmFC400GWgQ1000AEjxfjK0LIbGAR0Mv3jm8j0OYyhzOG18cuY_GD0fYGZmAThEIw1gP0Ygz9qiozkynd1m6g0QMi5xm2lAZKxmAD0P6oRjYd1O-rNGUl1P-ze53Q2PCpcGL2Z9284w2GHJEla8WJfuc5gB10MNC7fC00002r0QxtwAqLBELd4GMn0RA0CRcivBe6k_KwYnqBgS900S7__________m_2vPjwxBzP1at5Zmzz5G00",
-		"keys": [
-			{
-				"key": "http%20протокол",
-				"yandex": 11
 			}
 		]
 	}

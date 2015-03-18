@@ -12,6 +12,7 @@ var exampleObj = {
     "dateTime": "2015-01-01 18:00",
     "city": "Москва",
     "urlSearch": "http://www.mail.ru/sovety/sovet1/index.html",
+    "rootDomain": "http://www.mail.ru/",
     "keys": [
 
     ]
@@ -34,7 +35,7 @@ function ResultHandler(obj) {
         tmpObj.city = currCity;
         tmpObj.dateTime = currDate;
         tmpObj.urlSearch = obj.links[i];
-        if(resArr.indexOf())
+        tmpObj.rootDomain = getDomain(obj.links[i]);
         tmpObj.keys = [];
         keyItem['key'] = obj.key;
         switch (obj.searcher) {
@@ -48,8 +49,42 @@ function ResultHandler(obj) {
                 throw new Error('Неверное значение!');
         }
         tmpObj.keys.push(keyItem);
-        resArr.push(tmpObj);
+        mergePseudoDuplicates(tmpObj) ?  null : resArr.push(tmpObj);
     }
+}
+
+function mergePseudoDuplicates(neededObj) {
+    for(var j = 0; j < resArr.length; j++ ) {
+        if(resArr[j].urlSearch === neededObj.urlSearch) {
+            mergeItems(resArr[j], neededObj);
+            return true;
+        }
+    }
+    return false;
+}
+
+function mergeItems(oldItem, newItem) {
+    var isCombined = false;
+    for(var j = 0; j < oldItem.keys.length; j++){
+       if (oldItem.keys[j].key === newItem.keys[0].key) {
+           mergeObjects(oldItem.keys[j], newItem.keys[0]);
+           isCombined = !isCombined;
+       }
+    }
+    isCombined ?  null : oldItem.keys = oldItem.keys.concat(newItem.keys);
+}
+
+function mergeObjects(obj1, obj2) {
+    for( var property in obj2) {
+        obj1[property] = obj2[property];
+    }
+}
+
+function getDomain(url) {
+    var parser = document.createElement('a');
+    parser.href = url;
+
+    return parser.hostname;
 }
 
 function resultStore() {
