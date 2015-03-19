@@ -4,6 +4,7 @@ var fs = require('fs'),
 fs.write(path, '', 'w');
 var now = new Date(),
     resArr = [],
+    linkOnPagesCounter = {},
     strDate = now.toISOString(),
     currCity,
     currDate = strDate.substr(0,strDate.indexOf('T')) + ' ' + now.toTimeString().replace(/.*(\d{2}:\d{2}:\d{2}).*/, "$1");
@@ -18,39 +19,45 @@ var exampleObj = {
     ]
 };
 
-
-
 function ResultHandler(obj) {
     console.log('опа!');
     console.log(obj.searcher + ', ' + obj.city + ', ' + obj.page + ', ' + obj.key);
     console.log(obj.links.join('\n'));
     console.log(obj.links.length);
+    linkOnPagesCounter[obj.searcher] = (obj.page === 1) ? 0 : linkOnPagesCounter[obj.searcher];
 
     currCity = !!currCity ? currCity : obj.city;
 
-    var tmpObj;
+
     for(var i = 0; i < obj.links.length; i++) {
-        var keyItem = {};
-        tmpObj = Object.create(exampleObj);
-        tmpObj.city = currCity;
-        tmpObj.dateTime = currDate;
-        tmpObj.urlSearch = obj.links[i];
-        tmpObj.rootDomain = getDomain(obj.links[i]);
-        tmpObj.keys = [];
-        keyItem['key'] = obj.key;
-        switch (obj.searcher) {
-            case 'yandex':
-                keyItem['yandex'] = i + 1;
-                break;
-            case 'google':
-                keyItem['google'] = i + 1;
-                break;
-            default:
-                throw new Error('Неверное значение!');
-        }
-        tmpObj.keys.push(keyItem);
-        mergePseudoDuplicates(tmpObj) ?  null : resArr.push(tmpObj);
+        createEntry(obj, i);
     }
+
+    linkOnPagesCounter[obj.searcher] += obj.links.length;
+}
+
+function createEntry(obj, ind) {
+    var tmpObj,
+        keyItem = {};
+    tmpObj = Object.create(exampleObj);
+    tmpObj.city = currCity;
+    tmpObj.dateTime = currDate;
+    tmpObj.urlSearch = obj.links[ind];
+    tmpObj.rootDomain = getDomain(obj.links[ind]);
+    tmpObj.keys = [];
+    keyItem['key'] = obj.key;
+    switch (obj.searcher) {
+        case 'yandex':
+            keyItem['yandex'] = linkOnPagesCounter[obj.searcher] + (ind + 1);
+            break;
+        case 'google':
+            keyItem['google'] = linkOnPagesCounter[obj.searcher] + (ind + 1);
+            break;
+        default:
+            throw new Error('Неверное значение!');
+    }
+    tmpObj.keys.push(keyItem);
+    mergePseudoDuplicates(tmpObj) ?  null : resArr.push(tmpObj);
 }
 
 function mergePseudoDuplicates(neededObj) {
@@ -83,18 +90,12 @@ function mergeObjects(obj1, obj2) {
 function getDomain(url) {
     var parser = document.createElement('a');
     parser.href = url;
-
     return parser.hostname;
 }
 
 function resultStore() {
     fs.write(path, JSON.stringify(resArr, null, '\t'), 'w');
 }
-
-function resultAggregate() {
-
-}
-
 
 module.exports = {
     ResultHandler : ResultHandler,

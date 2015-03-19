@@ -1,459 +1,399 @@
 [
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "https://ru.wikipedia.org/wiki/HTTP",
-		"rootDomain": "https:ru.wikipedia.org",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://russia.tv/brand/show/brand_id/58992",
+		"rootDomain": "russia.tv",
 		"keys": [
 			{
-				"key": "http",
+				"key": "один в один",
 				"google": 1
+			},
+			{
+				"key": "один",
+				"google": 2
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
-		"rootDomain": "http:en.wikipedia.org",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://vk.com/odin_v_odin_show",
+		"rootDomain": "vk.com",
 		"keys": [
 			{
-				"key": "http",
+				"key": "один в один",
 				"google": 2,
-				"yandex": 8
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://www.kremlin.ru/",
-		"rootDomain": "http:www.kremlin.ru",
-		"keys": [
+				"yandex": 10
+			},
 			{
-				"key": "http",
+				"key": "один",
 				"google": 3
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://lenta.ru/",
-		"rootDomain": "http:lenta.ru",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "https://ru.wikipedia.org/wiki/%D0%9E%D0%B4%D0%B8%D0%BD_%D0%B2_%D0%BE%D0%B4%D0%B8%D0%BD!",
+		"rootDomain": "ru.wikipedia.org",
 		"keys": [
 			{
-				"key": "http",
+				"key": "один в один",
+				"google": 3
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://www.youtube.com/watch?v=xRI_KoSxtm0",
+		"rootDomain": "www.youtube.com",
+		"keys": [
+			{
+				"key": "один в один",
 				"google": 4
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://habrahabr.ru/",
-		"rootDomain": "http:habrahabr.ru",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://www.vokrug.tv/product/show/Odin_v_odin_3_sezon/",
+		"rootDomain": "www.vokrug.tv",
 		"keys": [
 			{
-				"key": "http",
+				"key": "один в один",
 				"google": 5
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://rutube.ru/",
-		"rootDomain": "http:rutube.ru",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://www.1tv.ru/sprojects/si=5895",
+		"rootDomain": "www.1tv.ru",
 		"keys": [
 			{
-				"key": "http",
+				"key": "один в один",
 				"google": 6
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://ria.ru/",
-		"rootDomain": "http:ria.ru",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://www.1tv.ru/sprojects_editions/si=5895",
+		"rootDomain": "www.1tv.ru",
 		"keys": [
 			{
-				"key": "http",
-				"google": 7
+				"key": "один в один",
+				"google": 7,
+				"yandex": 2
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://www.vesti.ru/",
-		"rootDomain": "http:www.vesti.ru",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://www.1tv.ru/sprojects_in_detail/si=5895",
+		"rootDomain": "www.1tv.ru",
 		"keys": [
 			{
-				"key": "http",
+				"key": "один в один",
 				"google": 8
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://www.rambler.ru/",
-		"rootDomain": "http:www.rambler.ru",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://ok.ru/odin.v.odin.show",
+		"rootDomain": "ok.ru",
 		"keys": [
 			{
-				"key": "http",
+				"key": "один в один",
 				"google": 9
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://www.gks.ru/",
-		"rootDomain": "http:www.gks.ru",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://rustvshow.ru/32-odin-v-odin-3-sezon-smotret-onlayn-2015-kanal-rossiya-1.html",
+		"rootDomain": "rustvshow.ru",
 		"keys": [
 			{
-				"key": "http",
+				"key": "один в один",
 				"google": 10
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://www.youtube.com/watch?v=-Khgihh5LGU",
-		"rootDomain": "http:www.youtube.com",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "https://ru.wikipedia.org/wiki/%D0%9E%D0%B4%D0%B8%D0%BD",
+		"rootDomain": "ru.wikipedia.org",
 		"keys": [
 			{
-				"key": "http%20протокол",
+				"key": "один",
 				"google": 1
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://www.youtube.com/watch?v=VO_R2pIoL4Q",
-		"rootDomain": "http:www.youtube.com",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://godsbay.ru/vikings/odin.html",
+		"rootDomain": "godsbay.ru",
 		"keys": [
 			{
-				"key": "http%20протокол",
-				"google": 2,
-				"yandex": 2
+				"key": "один",
+				"google": 4,
+				"yandex": 5
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://www.topexpert.pro/open-seo-lessons/lesson-20.html",
-		"rootDomain": "http:www.topexpert.pro",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://echo.msk.ru/programs/odin/",
+		"rootDomain": "echo.msk.ru",
 		"keys": [
 			{
-				"key": "http%20протокол",
-				"google": 3,
-				"yandex": 3
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://www.slideshare.net/TopExpertRF/20-http-17863665",
-		"rootDomain": "http:www.slideshare.net",
-		"keys": [
-			{
-				"key": "http%20протокол",
-				"google": 4
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://www.cyberforum.ru/redhat-fedora-centos-asp-linux/thread1320301.html",
-		"rootDomain": "http:www.cyberforum.ru",
-		"keys": [
-			{
-				"key": "http%20протокол",
+				"key": "один",
 				"google": 5
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "https://sites.google.com/site/gosyvmkss12/ceti-ebm-i-cpedctva-telekommynikacij/20-protokol-tcp",
-		"rootDomain": "https:sites.google.com",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://www.rbc.ru/rbcfreenews/550b061b9a79479cd82198ec",
+		"rootDomain": "www.rbc.ru",
 		"keys": [
 			{
-				"key": "http%20протокол",
+				"key": "один",
 				"google": 6
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://www.abirus.ru/content/564/623/626/14338/16620/16663.html",
-		"rootDomain": "http:www.abirus.ru",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://russian.rt.com/article/80621",
+		"rootDomain": "russian.rt.com",
 		"keys": [
 			{
-				"key": "http%20протокол",
+				"key": "один",
 				"google": 7
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://www.abirus.ru/content/564/623/626/14338/16620/16662.html",
-		"rootDomain": "http:www.abirus.ru",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://www.ntv.ru/novosti/1369596/",
+		"rootDomain": "www.ntv.ru",
 		"keys": [
 			{
-				"key": "http%20протокол",
+				"key": "один",
 				"google": 8
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://www.alsportal.ru/latest-news/protokoldeanny",
-		"rootDomain": "http:www.alsportal.ru",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://ru.wikipedia.org/wiki/%D0%9E%D0%B4%D0%B8%D0%BD_%D0%B2_%D0%BE%D0%B4%D0%B8%D0%BD!",
+		"rootDomain": "ru.wikipedia.org",
 		"keys": [
 			{
-				"key": "http%20протокол",
-				"google": 9
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://studopedia.org/4-168156.html",
-		"rootDomain": "http:studopedia.org",
-		"keys": [
-			{
-				"key": "http%20протокол",
-				"google": 10
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://ru.wikipedia.org/wiki/HTTP",
-		"rootDomain": "http:ru.wikipedia.org",
-		"keys": [
-			{
-				"key": "http",
+				"key": "один в один",
 				"yandex": 1
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://book.itep.ru/4/45/http4561.htm",
-		"rootDomain": "http:book.itep.ru",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://russia.tv/brand/show/brand_id/57578",
+		"rootDomain": "russia.tv",
 		"keys": [
 			{
-				"key": "http",
-				"yandex": 2
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://traditio-ru.org/wiki/Http",
-		"rootDomain": "http:traditio-ru.org",
-		"keys": [
-			{
-				"key": "http",
+				"key": "один в один",
 				"yandex": 3
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://ru.science.wikia.com/wiki/HTTP",
-		"rootDomain": "http:ru.science.wikia.com",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://BigCinema.tv/tvshows/odin-v-odin.html",
+		"rootDomain": "BigCinema.tv",
 		"keys": [
 			{
-				"key": "http",
+				"key": "один в один",
 				"yandex": 4
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://wiki.dieg.info/http",
-		"rootDomain": "http:wiki.dieg.info",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://www.youtube.com/user/odzinvodzin",
+		"rootDomain": "www.youtube.com",
 		"keys": [
 			{
-				"key": "http",
+				"key": "один в один",
 				"yandex": 5
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://rootonly.ru/content/http",
-		"rootDomain": "http:rootonly.ru",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://onlainfilm.ucoz.ua/load/odin_v_odin_smotret_onlajn/15-1-0-15012",
+		"rootDomain": "onlainfilm.ucoz.ua",
 		"keys": [
 			{
-				"key": "http",
+				"key": "один в один",
 				"yandex": 6
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://lib.ru/WEBMASTER/rfc2068/section-3.html",
-		"rootDomain": "http:lib.ru",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://tushkan.net/news/odin_v_odin_ehfir_02_03_2013_smotret_onlajn/2015-03-09-8982",
+		"rootDomain": "tushkan.net",
 		"keys": [
 			{
-				"key": "http",
+				"key": "один в один",
 				"yandex": 7
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://www.w3.org/http",
-		"rootDomain": "http:www.w3.org",
-		"keys": [
+			},
 			{
-				"key": "http",
-				"yandex": 9
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://vkontakte.ru/",
-		"rootDomain": "http:vkontakte.ru",
-		"keys": [
-			{
-				"key": "http",
-				"yandex": 10
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://yabs.yandex.ru/count/CcquIGNb_wa400G0gQ10022EjiINK0LIbGAR0Mv3jm8j0OYsK_JG18cpGsP60fWRdQpakWQcJ8gW-LcslQCb9Esg0QMlhfC2lAZKxmAD0P6zo5-62PCpcGL2Z93v5Q2Gr32laFaLfu5kgB10MNC7em6kzUWPCuNyZn45iG6oX16vhEIw1i7__________m_2_3JNnG14gEy3nOyFU180",
-		"rootDomain": "http:yabs.yandex.ru",
-		"keys": [
-			{
-				"key": "http",
-				"yandex": 11
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://pt.slideshare.net/TopExpertRF/20-http-17863665",
-		"rootDomain": "http:pt.slideshare.net",
-		"keys": [
-			{
-				"key": "http%20протокол",
-				"yandex": 1
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP",
-		"rootDomain": "http:ru.wikipedia.org",
-		"keys": [
-			{
-				"key": "http%20протокол",
-				"yandex": 4
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://ru.wikipedia.org/wiki/OSPF",
-		"rootDomain": "http:ru.wikipedia.org",
-		"keys": [
-			{
-				"key": "http%20протокол",
-				"yandex": 5
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://profrazy.ru/show/-Khgihh5LGU/urok_20_protokol_http_evgeniy_kontsevoy.html",
-		"rootDomain": "http:profrazy.ru",
-		"keys": [
-			{
-				"key": "http%20протокол",
+				"key": "один",
 				"yandex": 6
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://habrahabr.ru/post/215117/",
-		"rootDomain": "http:habrahabr.ru",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://lovekino.tv/load/tv_peredachi/shou/odin_v_odin_3_sezon_08_03_2015_5_vypusk/16-1-0-21698",
+		"rootDomain": "lovekino.tv",
 		"keys": [
 			{
-				"key": "http%20протокол",
-				"yandex": 7
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://scriptcoding.ru/2013/03/19/protocol-http/",
-		"rootDomain": "http:scriptcoding.ru",
-		"keys": [
-			{
-				"key": "http%20протокол",
+				"key": "один в один",
 				"yandex": 8
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://ruseller.com/lessons.php?id=1726&rub=28",
-		"rootDomain": "http:ruseller.com",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://dream-film.net/3384-odin-v-odin-3-sezon-08.03.2015.html",
+		"rootDomain": "dream-film.net",
 		"keys": [
 			{
-				"key": "http%20протокол",
+				"key": "один в один",
 				"yandex": 9
 			}
 		]
 	},
 	{
 		"city": "Samara",
-		"dateTime": "2015-03-18 17:23:13",
-		"urlSearch": "http://reftrend.ru/948955.html",
-		"rootDomain": "http:reftrend.ru",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://ru.wikipedia.org/wiki/%CE%E4%E8%ED",
+		"rootDomain": "ru.wikipedia.org",
 		"keys": [
 			{
-				"key": "http%20протокол",
+				"key": "один",
+				"yandex": 1
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://russia.tv/video/show/brand_id/58992/episode_id/1170902",
+		"rootDomain": "russia.tv",
+		"keys": [
+			{
+				"key": "один",
+				"yandex": 2
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://dic.academic.ru/dic.nsf/enc_myphology/3415/%D0%9E%D0%94%D0%98%D0%9D",
+		"rootDomain": "dic.academic.ru",
+		"keys": [
+			{
+				"key": "один",
+				"yandex": 3
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://traditio-ru.org/wiki/%D0%9E%D0%B4%D0%B8%D0%BD",
+		"rootDomain": "traditio-ru.org",
+		"keys": [
+			{
+				"key": "один",
+				"yandex": 4
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://FreeZee.ru/16824-odin-v-odin-3-sezon.html",
+		"rootDomain": "FreeZee.ru",
+		"keys": [
+			{
+				"key": "один",
+				"yandex": 7
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://myfhology.info/gods/skandinavy/odin.html",
+		"rootDomain": "myfhology.info",
+		"keys": [
+			{
+				"key": "один",
+				"yandex": 8
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "http://xn----8sbauh0beb7ai9bh.xn--p1ai/%D0%BE%D0%B4%D0%B8%D0%BD",
+		"rootDomain": "xn----8sbauh0beb7ai9bh.xn--p1ai",
+		"keys": [
+			{
+				"key": "один",
+				"yandex": 9
+			}
+		]
+	},
+	{
+		"city": "Samara",
+		"dateTime": "2015-03-19 23:36:01",
+		"urlSearch": "https://my-hit.org/film/567/",
+		"rootDomain": "my-hit.org",
+		"keys": [
+			{
+				"key": "один",
 				"yandex": 10
 			}
 		]

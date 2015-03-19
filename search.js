@@ -8,7 +8,6 @@ function SearchEngine(engConfig) {
     var _nameSearcher = engConfig.name,
         _engineUrl = engConfig.rootDomain,
         _engineRequest = engConfig.requestPrefix,
-        _concatSign = engConfig.concatSign,
         _engineNewPage = engConfig.newPagePrefix,
         _locParam = engConfig.locParam,
         _linkSelector = engConfig.linkSelector,
@@ -32,7 +31,7 @@ function SearchEngine(engConfig) {
                 }, _linkSelector);
 
                 saveResults(obj.page, obj.key);
-                setTimeout(nextPage, 1000);
+                setTimeout(nextPage, 5000);
             }
         });
     };
@@ -49,7 +48,7 @@ function SearchEngine(engConfig) {
             location = setLocation(_currCity),
             keyArr = searchObj.keyPhrases;
         for (var numKey = 0; numKey < keyArr.length; numKey++ ) {
-            keyPhrase = keyArr[numKey].replace(new RegExp(' ', 'g'), _concatSign);
+            keyPhrase = keyArr[numKey];
             url = _engineUrl + _engineRequest + encodeURIComponent(keyPhrase) + _locParam + location;
             for (var numPage = 0; numPage < searchObj.depthSearch; numPage++) {
                 var newObj = {};
@@ -68,7 +67,7 @@ function SearchEngine(engConfig) {
         resObj = {
             searcher: _nameSearcher,
             city: _currCity,
-            key: phrase,
+            key: decodeURIComponent(phrase),
             page: page,
             links: _onPageLinks
         };
