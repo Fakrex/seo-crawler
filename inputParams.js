@@ -1,11 +1,10 @@
 module.exports = {
     keyPhrases:[
-        'один в один',
-        'один'
+        'купить кондиционер',
     ],
     depthSearch: 1,
     city: {
-        google: 'Samara',
-        yandex: 'Самара'
+        google: 'Saint Petersburg',
+        yandex: 'Санкт-Петербург'
     }
 };

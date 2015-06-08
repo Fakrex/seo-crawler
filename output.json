@@ -1,400 +1,270 @@
 [
 	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://russia.tv/brand/show/brand_id/58992",
-		"rootDomain": "russia.tv",
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://clim-art.ru/konditsionirovanie/",
+		"rootDomain": "clim-art.ru",
 		"keys": [
 			{
-				"key": "один в один",
-				"google": 1
-			},
-			{
-				"key": "один",
-				"google": 2
+				"key": "купить кондиционер",
+				"google": 1,
+				"yandex": 13
 			}
 		]
 	},
 	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://vk.com/odin_v_odin_show",
-		"rootDomain": "vk.com",
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://konditsionery-spb.ru/",
+		"rootDomain": "konditsionery-spb.ru",
 		"keys": [
 			{
-				"key": "один в один",
+				"key": "купить кондиционер",
 				"google": 2,
-				"yandex": 10
-			},
-			{
-				"key": "один",
-				"google": 3
+				"yandex": 4
 			}
 		]
 	},
 	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "https://ru.wikipedia.org/wiki/%D0%9E%D0%B4%D0%B8%D0%BD_%D0%B2_%D0%BE%D0%B4%D0%B8%D0%BD!",
-		"rootDomain": "ru.wikipedia.org",
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://www.pro-air.ru/",
+		"rootDomain": "www.pro-air.ru",
 		"keys": [
 			{
-				"key": "один в один",
-				"google": 3
+				"key": "купить кондиционер",
+				"google": 3,
+				"yandex": 9
 			}
 		]
 	},
 	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://www.youtube.com/watch?v=xRI_KoSxtm0",
-		"rootDomain": "www.youtube.com",
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://www.eldorado.ru/cat/5130/",
+		"rootDomain": "www.eldorado.ru",
 		"keys": [
 			{
-				"key": "один в один",
-				"google": 4
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://www.vokrug.tv/product/show/Odin_v_odin_3_sezon/",
-		"rootDomain": "www.vokrug.tv",
-		"keys": [
-			{
-				"key": "один в один",
-				"google": 5
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://www.1tv.ru/sprojects/si=5895",
-		"rootDomain": "www.1tv.ru",
-		"keys": [
-			{
-				"key": "один в один",
-				"google": 6
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://www.1tv.ru/sprojects_editions/si=5895",
-		"rootDomain": "www.1tv.ru",
-		"keys": [
-			{
-				"key": "один в один",
-				"google": 7,
-				"yandex": 2
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://www.1tv.ru/sprojects_in_detail/si=5895",
-		"rootDomain": "www.1tv.ru",
-		"keys": [
-			{
-				"key": "один в один",
-				"google": 8
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://ok.ru/odin.v.odin.show",
-		"rootDomain": "ok.ru",
-		"keys": [
-			{
-				"key": "один в один",
-				"google": 9
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://rustvshow.ru/32-odin-v-odin-3-sezon-smotret-onlayn-2015-kanal-rossiya-1.html",
-		"rootDomain": "rustvshow.ru",
-		"keys": [
-			{
-				"key": "один в один",
-				"google": 10
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "https://ru.wikipedia.org/wiki/%D0%9E%D0%B4%D0%B8%D0%BD",
-		"rootDomain": "ru.wikipedia.org",
-		"keys": [
-			{
-				"key": "один",
-				"google": 1
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://godsbay.ru/vikings/odin.html",
-		"rootDomain": "godsbay.ru",
-		"keys": [
-			{
-				"key": "один",
+				"key": "купить кондиционер",
 				"google": 4,
-				"yandex": 5
+				"yandex": 12
 			}
 		]
 	},
 	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://echo.msk.ru/programs/odin/",
-		"rootDomain": "echo.msk.ru",
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://domklim.ru/",
+		"rootDomain": "domklim.ru",
 		"keys": [
 			{
-				"key": "один",
+				"key": "купить кондиционер",
 				"google": 5
 			}
 		]
 	},
 	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://www.rbc.ru/rbcfreenews/550b061b9a79479cd82198ec",
-		"rootDomain": "www.rbc.ru",
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://climat-nw.ru/air-conditioning/",
+		"rootDomain": "climat-nw.ru",
 		"keys": [
 			{
-				"key": "один",
+				"key": "купить кондиционер",
 				"google": 6
 			}
 		]
 	},
 	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://russian.rt.com/article/80621",
-		"rootDomain": "russian.rt.com",
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://svclim.ru/",
+		"rootDomain": "svclim.ru",
 		"keys": [
 			{
-				"key": "один",
+				"key": "купить кондиционер",
 				"google": 7
 			}
 		]
 	},
 	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://www.ntv.ru/novosti/1369596/",
-		"rootDomain": "www.ntv.ru",
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://proxolod.ru/",
+		"rootDomain": "proxolod.ru",
 		"keys": [
 			{
-				"key": "один",
+				"key": "купить кондиционер",
 				"google": 8
 			}
 		]
 	},
 	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://ru.wikipedia.org/wiki/%D0%9E%D0%B4%D0%B8%D0%BD_%D0%B2_%D0%BE%D0%B4%D0%B8%D0%BD!",
-		"rootDomain": "ru.wikipedia.org",
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://www.mircli.ru/nastennye-kondicionery/",
+		"rootDomain": "www.mircli.ru",
 		"keys": [
 			{
-				"key": "один в один",
-				"yandex": 1
+				"key": "купить кондиционер",
+				"google": 9
 			}
 		]
 	},
 	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://russia.tv/brand/show/brand_id/57578",
-		"rootDomain": "russia.tv",
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://svklim.ru/",
+		"rootDomain": "svklim.ru",
 		"keys": [
 			{
-				"key": "один в один",
-				"yandex": 3
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://BigCinema.tv/tvshows/odin-v-odin.html",
-		"rootDomain": "BigCinema.tv",
-		"keys": [
-			{
-				"key": "один в один",
-				"yandex": 4
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://www.youtube.com/user/odzinvodzin",
-		"rootDomain": "www.youtube.com",
-		"keys": [
-			{
-				"key": "один в один",
+				"key": "купить кондиционер",
+				"google": 10,
 				"yandex": 5
 			}
 		]
 	},
 	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://onlainfilm.ucoz.ua/load/odin_v_odin_smotret_onlajn/15-1-0-15012",
-		"rootDomain": "onlainfilm.ucoz.ua",
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://yabs.yandex.ru/count/CR2qGVka1_C400G0gQ10022EjH_1K0LIbG6R0cv3jm4aYB2YuLy6YRfGk_41c8qKdQjEAmEcQ8gybDLy0RsncSl40Qe1fQ22uWED0P6rEtvT19C2eZEP1KACeATm0Q2W0iG2hw2dS06Kb0q7fvFg7AYp2FQU0gC1fB00001ehl4o6oSARRSH1R41ieGGkQjEAmF1__________yFmlHAW27gv0l91CG1nOyFVnC0",
+		"rootDomain": "yabs.yandex.ru",
 		"keys": [
 			{
-				"key": "один в один",
-				"yandex": 6
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://tushkan.net/news/odin_v_odin_ehfir_02_03_2013_smotret_onlajn/2015-03-09-8982",
-		"rootDomain": "tushkan.net",
-		"keys": [
-			{
-				"key": "один в один",
-				"yandex": 7
-			},
-			{
-				"key": "один",
-				"yandex": 6
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://lovekino.tv/load/tv_peredachi/shou/odin_v_odin_3_sezon_08_03_2015_5_vypusk/16-1-0-21698",
-		"rootDomain": "lovekino.tv",
-		"keys": [
-			{
-				"key": "один в один",
-				"yandex": 8
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://dream-film.net/3384-odin-v-odin-3-sezon-08.03.2015.html",
-		"rootDomain": "dream-film.net",
-		"keys": [
-			{
-				"key": "один в один",
-				"yandex": 9
-			}
-		]
-	},
-	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://ru.wikipedia.org/wiki/%CE%E4%E8%ED",
-		"rootDomain": "ru.wikipedia.org",
-		"keys": [
-			{
-				"key": "один",
+				"key": "купить кондиционер",
 				"yandex": 1
 			}
 		]
 	},
 	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://russia.tv/video/show/brand_id/58992/episode_id/1170902",
-		"rootDomain": "russia.tv",
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://yabs.yandex.ru/count/CR2qGQfFM70400G0gQ10022EjH_1K0LIbG6R0cv3jm4aCeYxhnj118cJaa-OZHIThdps4gP3YhC13me2lRbMNbC2gW6bghw_18q1aRKxVbq4amAYCva5Geobr6u1jfWCRhMGGrsWfHs00Q-br6u1iv2eORIGGrsKdyqIfvQW5gYbgwu1em6ai00006YkyJ8R9mfjjn45iG6oX12vhdps4i7__________m_2z4g08Uha2ya4n075Zmzz5G00",
+		"rootDomain": "yabs.yandex.ru",
 		"keys": [
 			{
-				"key": "один",
+				"key": "купить кондиционер",
 				"yandex": 2
 			}
 		]
 	},
 	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://dic.academic.ru/dic.nsf/enc_myphology/3415/%D0%9E%D0%94%D0%98%D0%9D",
-		"rootDomain": "dic.academic.ru",
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://yabs.yandex.ru/count/CR2qGPW51bK400G0gQ10022EjH_1K0LIbG6R0cv3jm4aCuYu2qQ00uclIODyc8qKdQYFB1AcDugtbLuz0RsoiNw20Qe1fQAGWmED0P6rEtvT19C2eZEP1KAChSuc0RQKSLYrcFDAeAL9m0ElhSuc0REG9FIqcFDAb9Hs2AURA1oee59e3AC1fB00001ehl4o6oSARRSH1R41ieGGkQYFB1B1__________yFmlHAW27gv0l91CG1nOyFVXK0",
+		"rootDomain": "yabs.yandex.ru",
 		"keys": [
 			{
-				"key": "один",
+				"key": "купить кондиционер",
 				"yandex": 3
 			}
 		]
 	},
 	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://traditio-ru.org/wiki/%D0%9E%D0%B4%D0%B8%D0%BD",
-		"rootDomain": "traditio-ru.org",
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://spb.blizko.ru/predl/construction/conditioning/condicioner/mobilnye",
+		"rootDomain": "spb.blizko.ru",
 		"keys": [
 			{
-				"key": "один",
-				"yandex": 4
+				"key": "купить кондиционер",
+				"yandex": 6
 			}
 		]
 	},
 	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://FreeZee.ru/16824-odin-v-odin-3-sezon.html",
-		"rootDomain": "FreeZee.ru",
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://euroclimate.org/kondicionery",
+		"rootDomain": "euroclimate.org",
 		"keys": [
 			{
-				"key": "один",
+				"key": "купить кондиционер",
 				"yandex": 7
 			}
 		]
 	},
 	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://myfhology.info/gods/skandinavy/odin.html",
-		"rootDomain": "myfhology.info",
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://spb.aport.ru/kondicionery/cat374",
+		"rootDomain": "spb.aport.ru",
 		"keys": [
 			{
-				"key": "один",
+				"key": "купить кондиционер",
 				"yandex": 8
 			}
 		]
 	},
 	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "http://xn----8sbauh0beb7ai9bh.xn--p1ai/%D0%BE%D0%B4%D0%B8%D0%BD",
-		"rootDomain": "xn----8sbauh0beb7ai9bh.xn--p1ai",
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://market.yandex.ru/catalog.xml?hid=90578&clid=703",
+		"rootDomain": "market.yandex.ru",
 		"keys": [
 			{
-				"key": "один",
-				"yandex": 9
+				"key": "купить кондиционер",
+				"yandex": 10
 			}
 		]
 	},
 	{
-		"city": "Samara",
-		"dateTime": "2015-03-19 23:36:01",
-		"urlSearch": "https://my-hit.org/film/567/",
-		"rootDomain": "my-hit.org",
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://www.klimatuspeh.ru/",
+		"rootDomain": "www.klimatuspeh.ru",
 		"keys": [
 			{
-				"key": "один",
-				"yandex": 10
+				"key": "купить кондиционер",
+				"yandex": 11
+			}
+		]
+	},
+	{
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://yabs.yandex.ru/count/CR2qGRFEJCq400G0gQ10022EjH_1K0LIbGAR0Mv3jm8j0OYqdHm01ucNY0YOPvscv1C2fe89YgNgBWIzf2TY1Ae1fPV7SOq1aRKxVbq4amAYCva5GeoWXo81eA0yPmAle8SY0PIME12ddGe5gB1zct81em6ai00006YkyJ8R9mfjjn45iG6oX16vfkGJ0i7__________m_2z4g08Uha2ya4nOmFUHC0",
+		"rootDomain": "yabs.yandex.ru",
+		"keys": [
+			{
+				"key": "купить кондиционер",
+				"yandex": 14
+			}
+		]
+	},
+	{
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://yabs.yandex.ru/count/CR2qGP6m2TO400G0gQ10022EjH_1K0LIbGAR0Mv3jm8j0JA8j-ohPmQ9gXkTV9YD59sXyEmAfcgAlELfhm6zi9kyzm6g0QMeB2y4ZG6HjJj-NGIJ0g8pcGL2Z906-Q2W_Gu8hv06-PIUmW-db-05gA1jDngZ0QIm0000QAxnCXid2cst4GMn0RA44RcXyEmAmV__________3yBqIe0XwkGBoGJ5Zmzx4m00",
+		"rootDomain": "yabs.yandex.ru",
+		"keys": [
+			{
+				"key": "купить кондиционер",
+				"yandex": 15
+			}
+		]
+	},
+	{
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://yabs.yandex.ru/count/CR2qGJaI6QS400G0gQ10022EjH_1K0LIbGAR0Mv3jm8j0JE8jw77O0I9ju7JLGAOZHITfKu31wP5Ygfe242zfXqCLQe1fQ9j3G6D0P6rEtvT19C2eZEP1KACa8NFe925pw-GXS-KbaKDfvu71wYa5uKKem6ai00006YkyJ8R9mfjjn45iG6oX16vfKu31y7__________m_2z4g08Uha2ya4nOmFUHC0",
+		"rootDomain": "yabs.yandex.ru",
+		"keys": [
+			{
+				"key": "купить кондиционер",
+				"yandex": 16
+			}
+		]
+	},
+	{
+		"city": "Saint Petersburg",
+		"dateTime": "2015-03-20 16:26:22",
+		"urlSearch": "http://yabs.yandex.ru/count/CR2qGIAaZLC400G0gQ10022EjH_1K0LIbGAR0Mv3jm8j0JI8lmZg0mU9buW8c8qKdQDExX6cWmcAiLuz8G6ziSdQP06g0QMX7bO3lAVpgmID0P6rEtvT19C2eZEP1KACcCV6jfIYExMOYJAWbHBmhvZ7nhEG2Jsqc8aob9OY3QUMK0UegoraEAC1fB00001ehl4o6oSARRSH1R41ieGHkQDExX71__________yFmlHAW27gv0l91CMF3tyL",
+		"rootDomain": "yabs.yandex.ru",
+		"keys": [
+			{
+				"key": "купить кондиционер",
+				"yandex": 17
 			}
 		]
 	}
