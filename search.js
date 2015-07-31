@@ -100,10 +100,10 @@ function task3() {
     executeTask();
 }
 
-var taskPull = [task1, task2, task3];
+var taskPool = [task1, task2, task3];
 
 function executeTask() {
-    var task = taskPull.shift();
+    var task = taskPool.shift();
     if(!task) phantom.exit();
     task.call(null);
 }
