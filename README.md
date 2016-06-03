@@ -1,3 +1,3 @@
 # seo-crawler
-Seo tool for recieve search results in json for different search engines and geo-zones.
+Seo tool for recieve search results and save to json file for Yandex and Google search with considering geo-zones.
 Based on phantomjs.
